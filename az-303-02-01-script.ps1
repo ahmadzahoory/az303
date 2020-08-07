@@ -9,7 +9,7 @@ install-windowsfeature web-mgmt-tools
 
 #Change physical path of a site
 Import-Module WebAdministration
-Set-ItemProperty -path "IIS:\Sites\Default Web Site\" -name physicalPath -value "f:\webapp-code3"
+Set-ItemProperty -path "IIS:\Sites\Default Web Site\" -name physicalPath -value "f:\webapp-code"
 
 #Restart IIS
 iisreset /restart
