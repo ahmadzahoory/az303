@@ -1,3 +1,3 @@
 #!/bin/sh
 apt update
-apt install mysql-server
+apt install -y mysql-server
